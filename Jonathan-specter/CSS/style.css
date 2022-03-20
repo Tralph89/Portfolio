@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    font-family: inter;
+    text-align: justify;
+}
+button {
+    background-color: rgb(251,232,80);
+    border-color: rgb(251,232,80);
+    padding: 10px;
+    font-size: 1.2em;
+    width: 171px;
+    height: 56px;
+    font-family: intra;
+}
+.cofounder2 {
+    margin:auto 150px;
+    display: flex; justify-content: space-between; align-items: center;
+}
+.empresa {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 50px 10px;
+    margin: auto 150px;
+}
+.ejemplo {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 50px 0px;
+    margin: auto 150px;
+    width: auto;
+}
+.ejemplo div {
+    width: 500px;
+    padding:auto 0px auto 0px;
+}
+.ejemplo img {
+    width: 650px;
+}
+.cofounder {
+    width: auto;
+    background-color: rgb(46, 48, 56);
+}
+.cofounder2 div:nth-child(2)  {
+    margin-left: 50px;
+}
+.ejemplo p{
+    width: 480px;
+    margin: auto 20px auto 0px;
+}
+.ejemplo h2::after {
+    content: " →";
+}
+footer  {
+    background-color: rgb(46, 48, 56);
+    display: flex; justify-content: space-between; align-items: center;
+}
+footer div {
+    margin: auto 150px;
+}
+footer img {
+    padding: 10px;
+}
+h1  {
+    font-size: 3em;
+}
+h1, h2, h3  {
+    color: rgb(255,255,255);
+    font-family: Prata;
+}
+.head {
+    width: 50%;
+    margin: auto 150px;
+}
+header  {
+    display: flex; justify-content: space-between; align-items: center;
+    margin: 20px 150px;
+}
+header p {
+    text-align: left;
+}
+header nav {
+    text-align: center;
+}
+.ejemplo img {
+    width: 95%;
+}
+nav li {
+    display: inline-block;
+    padding: 10px 17px;
+    color: rgb(173,173,173);
+}
+a{
+    color: rgb(173,173,173);
+    text-decoration: none;
+}
+p   {
+    color: rgb(209, 208, 208);
+}
+.primero {
+display: flex; justify-content: space-between; align-items: center;
+padding: 10px 20px 10px 0px;
+}
+.primero div {
+    width: 500px;
+}
+.work {
+    margin: 50px 150px;
+    width: 500px;
+}
